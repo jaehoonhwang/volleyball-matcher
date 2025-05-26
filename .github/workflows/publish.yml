@@ -34,7 +34,7 @@ jobs:
         run: npm run build
 
       - name: Debuggo
-        run: ls -la
+        run: tree
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
