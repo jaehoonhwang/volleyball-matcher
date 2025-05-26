@@ -33,9 +33,6 @@ jobs:
       - name: Build with Next.js 🏗️
         run: npx next build
 
-      - name: Create out directory
-        run: mkdir out
-
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
