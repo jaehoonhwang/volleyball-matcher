@@ -6,7 +6,7 @@ export default function Home() {
           🚀 Landing page for the site 🚀
         </h1>
         <p className="text-lg text-gray-700 mb-8">
-          {"Where we get tinder'd into volleyball matches."}
+          {"Where we get tinder'd into volleyball matches and more"}
         </p>
         <p className="text-md text-gray-600">
           World of getting disappointed/happy at the same time with your
