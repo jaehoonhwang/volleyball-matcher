@@ -1,3 +1,5 @@
+import Rng from "@/app/components/rng";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
@@ -8,6 +10,7 @@ export default function Home() {
         <p className="text-lg text-gray-700 mb-8">
           {"Where we get tinder'd into volleyball matches and more"}
         </p>
+        <Rng />
         <p className="text-md text-gray-600">
           World of getting disappointed/happy at the same time with your
           teammates.
