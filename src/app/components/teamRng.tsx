@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 
 const buttonLabel = "Generate Team Sequence";
 
-const Rng = () => {
+const TeamRng = () => {
   const [sequence, setSequence] = useState<number[]>([]);
-  const [numberOfPeople, setNumberOfPeople] = useState(13);
+  const [numberOfPeople, setNumberOfPeople] = useState(12);
   const [netCount, setNetCount] = useState(2);
   /**
    * Shuffles the elements of an array and returns a new shuffled array.
@@ -112,4 +112,4 @@ const Rng = () => {
   );
 };
 
-export default Rng;
+export default TeamRng;

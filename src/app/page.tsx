@@ -1,4 +1,5 @@
-import Rng from "@/app/components/rng";
+import TeamRng from "@/app/components/teamRng";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <p className="text-lg text-gray-700 mb-8">
           {"Where we get tinder'd into volleyball matches and more"}
         </p>
-        <Rng />
+        <Navbar />
         <p className="text-md text-gray-600">
           World of getting disappointed/happy at the same time with your
           teammates.
